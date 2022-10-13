@@ -1,0 +1,23 @@
+﻿
+			GitHub Link : https://github.com/ANANTH4004/StudentAPI
+
+
+Step 1 : Create a DAL Class Library and install the Entity Framework. Using the Database first approach derive 
+		 the student, subject ans marks table. In the marks table StudentId and SubjectId are foreighkeys
+		 Marks is the not null field.
+
+Step 2 : Creat a class in the DAL which handle the CRUD operations. Write code for the Crud operation using context 
+		 class.
+
+Step 2 : Add a another Web API project and add a Student Controller and it derieved from the ApiController Class
+		 Write Methods for GET,POST,PUT and DELETE and they are calling the GetMarks(), AddMarks(), UpdateMarks()
+		and DeleteMarks() respectively.
+
+Step 4 : Check the references and Build dependencies and build the whole Solution once.
+
+Step 5 : After run the app copy the URI and put it in the POSTMAN testing tool and call the GET method check the output.
+
+Step 6 : for the POST method pass the Marks Class as FROMBODY in JSON format. Using querystring in the URI to pass 
+		 StudentId and SubjectId as the parameters.
+
+Step 7 : Pass the id for the delete method in the URI. check all the output in the POSTMAN Tool.
